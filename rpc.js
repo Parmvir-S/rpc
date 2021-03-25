@@ -16,13 +16,11 @@ let compScore = 0;
 let updateUserScore = () => {
     userScore += 1;
     alert(`You win, your score is ${userScore} and the computers score is ${compScore}`);
-    return userScore
 }
 
 let updateCompScore = () => {
     compScore += 1;
     alert(`You lose, your score is ${userScore} and the computers score is ${compScore}`);
-    return compScore
 }
 
 //gameplay function -> find better way to do this
